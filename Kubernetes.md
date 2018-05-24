@@ -1,12 +1,13 @@
-#Kubernetes
+<h1>Kubernetes</h1>
 
 [**Kubernetes**](https://kubernetes.io/) is a production grade constainer orchestration manager for automated container deployment, scaling and management.
 
-## Overview of kubernetes
+<h2>Overview of kubernetes</h2>
 
 A kubernetes cluster is a collection of **Nodes**; where a node is a physical or virtual machine.
 
-####Components
+<h3>Components</h3>
+
 * **Master components**
 	* **kube-apiserver** - exposes k8s API, front-end to control plane
 	* **etcd** - HA key-value store, stores all k8s cluster data
@@ -24,11 +25,11 @@ A kubernetes cluster is a collection of **Nodes**; where a node is a physical or
 	* [**Cluster level logging**](https://kubernetes.io/docs/concepts/cluster-administration/logging/).
 	* There are several other [**addons**](https://kubernetes.io/docs/concepts/cluster-administration/addons/) available.
 
-####Installing a Highly available cluster
+<h3>Installing a Highly available cluster</h3>
 
 * Prerequisites
 * Installing client tools
 * Preparing the compute hosts
 * generating TLS certificates
-* 
+* j
 
